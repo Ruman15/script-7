@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX User Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #user-info {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-width: 300px;
+        }
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>информацыя о пользователе</h1>
+    <button id="load-user-button">Load User</button>
+    <div id="user-info">
+        <p><span class="label">имя:</span> <span id="user-name"></span></p>
+        <p><span class="label">почта:</span> <span id="user-email"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
